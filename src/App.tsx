@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Hello from './component/Hello'
+import Todo from './component/Todo/Todo'
 import Lifecycle from './lifecycle'
 // import './App.css'
 
@@ -11,11 +12,12 @@ function App() {
   }
   return (
 <div>
-  <Lifecycle/>
+  {/* <Lifecycle/>
     <h1>Function show: {show({name:"Ninh"})}</h1>
     <div>Component: 
     <Hello name="This is Ninh" age={10}/>
-    </div>
+    </div> */}
+    <Todo/>
   </div>
   )
 }  
